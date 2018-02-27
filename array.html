@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+
+	<title>Array's Básicos e Multidimensionais</title>
+
+	<script type="text/javascript">
+		
+		//Array básico
+
+		lista_frutas = Array();
+		lista_frutas[1] = 'Banana';
+		lista_frutas[2] = 'Pera';
+		lista_frutas[3] = 'Abacaxi';
+		lista_frutas[4] = 'Morango';
+
+		//OOOOOOOOOUUUUUUUU
+
+		lista_vegetais = Array ('Beterraba', 'Pimentão', 'Vargem' , 'Couve-Flor');
+
+		//Indicando 1 variável do Array Frutas
+		document.write(lista_frutas[2]);
+		document.write("<Br><br>") 
+
+		//Indicamento 1 variável do Array Vegetais
+		//Iniciando a contagem do 0, 1, 2, 3 ...
+		document.write(lista_vegetais[2]);
+		document.write("<Br><br>")
+
+		//Listando o array inteiro
+		document.write(lista_vegetais);
+		document.write("<Br><br>")
+
+		//Array Multidimensionais
+		//Array do Array
+		var lista_coisas = Array();
+
+		lista_coisas['frutas'] = Array();
+		lista_coisas['frutas'][1] = 'Melancia';
+		lista_coisas['frutas'][2] = 'Maçã';
+		lista_coisas['frutas'][3] = 'Kiwi';
+
+
+		lista_coisas['pessoas'] = Array();
+		lista_coisas['pessoas'][1] = 'Isaque';
+		lista_coisas['pessoas'][2] = 'Jacó';
+		lista_coisas['pessoas'][3] = 'Beltazar';
+
+		lista_coisas['objetos'] = Array ('Faca', 'Martelo' , 'Chaves', 'Lanterna');
+
+		//Listando frutas
+		document.write(lista_coisas['frutas'][2]);
+		document.write("<Br><br>")
+
+		//Listando Pessoas
+		document.write(lista_coisas['pessoas'][1]);
+		document.write("<Br><br>")
+
+		//Listando Objetos
+		document.write(lista_coisas['objetos'][0]);
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
