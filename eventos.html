@@ -1,0 +1,43 @@
+<!DOCTYPE html5>
+<html>
+<head>
+
+	<meta charset="utf8">
+	<title>Eventos-Mouse</title>
+
+	<script type="text/javascript">
+	//Eventos=Comportamento do usuário no navegador 
+
+	//onclick
+	function msgboasvindas (){
+		alert('Olá, seja bem vindo, você pressionou o botão do mouse nesse elemento');
+	}
+
+	//ondblclick - duplo click
+
+	function msgboasvindas2 (){
+		alert('Olá, seja bem vindo, você pressionou o 2x o botão do mouse nesse elemento');
+	}
+
+	//onmousedown
+	function msgboasvindas3 (){
+		alert('Olá, seja bem vindo, você clicou e manteve pressionado o mouse nesse elemento');
+	}
+
+	//onmouseover
+	function msgboasvindas4 (){
+		alert('Olá, seja bem vindo, você passou o mouse nesse elemento');
+	}
+
+	//onmouseout
+
+	</script>
+
+</head>
+<body>
+	<div onclick="msgboasvindas()" style="background-color:black; height: 250px; width: 250px;"></div>
+	<div ondblclick="msgboasvindas2()" style="background-color:purple; height: 250px; width: 250px;"></div>
+	<div onmousedown="msgboasvindas3()" style="background-color:pink; height: 250px; width: 250px;"></div>
+	<div onmouseover="msgboasvindas4()" style="background-color:aqua; height: 250px; width: 250px;"></div>
+</body>
+</html>

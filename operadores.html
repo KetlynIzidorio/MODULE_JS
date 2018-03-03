@@ -1,0 +1,70 @@
+<!DOCTYPE html5>
+<html>
+<head>
+
+	<meta charset="utf8">
+	<title>Operadores</title>
+
+	<script type="text/javascript">
+		
+	//Operadores de Comparação
+
+	idade = Array(0, 18, 60, 100);
+
+
+	var usuario = prompt("Qual sua idade?"); 
+
+	if (usuario >= idade[1])
+	{
+		document.write("De maior");
+	}
+	else
+	{
+		document.write("De menor");
+	}
+	document.write("<Br><Br>")
+	//   ===  Compara os valores se são iguais e do msm tipo 
+	if (2 === '2'){
+		document.write("Mesmo tipo");
+	}else
+	{
+		document.write("Não");
+	}
+	document.write("<Br><Br>")
+
+	// && e
+	if ( 2 == 3 && 4 == 1)
+	{
+		document.write("True");
+	}else 
+	{
+		document.write("False");
+	}
+	document.write("<Br><Br>")
+
+	//SWITCH
+	var menu = prompt("Oi, hoje você está? 1-Feliz 2-Triste");
+ 
+ 	menu = parseInt(menu);
+ 	
+	switch(menu){
+		case 1:
+			document.write("Q bom, a felicidade é essencial em nossa vida");
+			break;
+		
+		case 2:
+			document.write("Olhe por outras perspectiva que nem tudo é um bixo de 7 cabeças");
+			break;
+
+		//Caso não seja nenhuma das opções
+		default:
+			document.write("Não existe essa opção");
+	} 
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
