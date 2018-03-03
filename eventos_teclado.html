@@ -1,0 +1,38 @@
+<!DOCTYPE html5>
+<html>
+<head>
+
+	<meta charset="utf8">
+	<title>Eventos-Teclado</title>
+
+	<script type="text/javascript">
+	//Eventos=Comportamento do usuário no navegador 
+
+	//onkeydown
+	//Quando uma tecla qualquer foi acionada, menos windows, shift, etc..
+	function msgboasvindas (){
+		alert('Olá, uma tecla foi pressionada');
+	}
+
+	//onkeypress
+	//Quando QUALQUER tecla qualquer foi acionada
+	function msgboasvindas2(){
+		alert('Olá, qualquer tecla foi pressionada');
+	}
+
+	//onkeyup
+	function msgboasvindas3(){
+		alert('Olá, você liberou a tecla que foi pressionada');
+	}
+
+
+
+	</script>
+
+</head>
+<body>
+	<input type="text" onkeydown="msgboasvindas()"/>
+	<input type="text" onkeypress="msgboasvindas2()"/>
+	<input type="text" onkeyup="msgboasvindas3()"/>
+</body>
+</html>
